@@ -3,7 +3,7 @@ body {
     color: rgb(60, 128, 255);
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, ;
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -63,6 +63,7 @@ a:hover {
 
 main {
     padding: 10px;
+    text-align: center;
 }
 
 footer {
@@ -86,6 +87,7 @@ footer {
     
     h1, h2, h3, h4, h5, h6{
         margin-top: 1rem;
+    
     }
     
     footer{
@@ -137,12 +139,14 @@ footer {
     .contact-form input,
     .contact-form select,
     .contact-form textarea {
-        display: block;
-        width: 100%;
+        display: flex ;
+        width: 20%;
+        text-align: center;
     
     }
     .contact-form label{
         margin-bottom: 0.5em;
+        
     
     }
     
