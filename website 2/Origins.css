@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    background-color: rgb(41, 29, 11);
     color: white;
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, ;
     text-align: center;
-    background-image: url(origins123-01.png);
+    background-image: url(eve-berthelette-helix-ace-hr-sphinx-wide-final-v05-sm.jpg);
     background-size: cover;
 }
 
@@ -15,7 +15,7 @@ header, nav, main, footer {
 header {
     background-color: rgb(0, 0, 0);
     text-align: center;
-    display: flex;
+    display: block;
 }
 
 h1 {
@@ -35,7 +35,7 @@ ul {
 
 li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 60px;
 }
 
 a {
@@ -44,7 +44,7 @@ a {
     padding: 8px 16px;
     border-radius: 10px;
     border: 1px solid white;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     word-spacing: 5%;
   
@@ -64,7 +64,7 @@ main {
 
 footer {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -72,51 +72,62 @@ footer {
     width: 100%;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    color: #333;
-}
 
 header {
-    background-color: #2e1d0f;
-    padding: 20px;
-    text-align: left;
+    background-color: #272829;
     color: #fff;
+    padding: 20px;
+    text-align: center;
+  
+    
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-article {
     flex: 1;
-    max-width: 400px;
-    margin: 50px;
-    background-color: #fff;
+    background-color: #3a3a3a;
+    border-radius: 10px;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #7d1411;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #bf7730;
+    margin-bottom: 15px;
 }
 
 p {
-    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
+
 
 

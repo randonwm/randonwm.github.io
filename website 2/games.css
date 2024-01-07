@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: rgba(3, 3, 3, 0.897);
     color: rgb(255, 255, 255);
     margin: 0;
     text-align: center;
     justify-content: center;
-    background-image: url(about\ background-01.png);
-    background-size: 250vh;
+    
+    
 }
 
 header, nav, main, footer {
@@ -13,7 +13,7 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
 }
@@ -23,7 +23,7 @@ h1 {
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
 }
 
@@ -35,15 +35,16 @@ ul {
 
 li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 60px;
+    text-align: left;
 }
 
 a {
-    text-decoration: black;
-    color: black;
+    text-decoration: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 8px 16px;
     border-radius: 10px;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
   
@@ -52,7 +53,8 @@ a {
 
 a:hover {
     background-color: rgb(0, 183, 255);
-    color: rgb(0, 0, 0);
+    
+   
     
     
     

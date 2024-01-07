@@ -4,6 +4,8 @@ body {
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, ;
     text-align: center;
+    background-image: url(Silver_Background.webp);
+    background-size: cover;
     
     
     
@@ -19,7 +21,7 @@ header, nav, main, footer {
 header {
     background-color: rgb(0, 0, 0);
     text-align: center;
-    display: flex;
+    display: block;
 }
 
 h1 {
@@ -29,6 +31,7 @@ h1 {
 nav {
     background-color: white;
     padding: 10px;
+    
 }
 
 ul {
@@ -39,7 +42,7 @@ ul {
 
 li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 60px;
 }
 
 a {
@@ -48,7 +51,7 @@ a {
     padding: 8px 16px;
     border-radius: 10px;
     border: 1px solid white;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     word-spacing: 5%;
   
@@ -76,8 +79,55 @@ footer {
     width: 100%;
 }
  
-.fixedimage{
+header {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
     display: flex;
-    padding: 5%;
-    margin-top: 109;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    flex: 5;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+section {
+    flex: 1;
+    background-color: #4c4c4c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #e44d26;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
 }

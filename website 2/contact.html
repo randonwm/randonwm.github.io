@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 <body>
-    
-</body>
+    <img src="" alt="">
+
 <nav>
     <ul>
         <li><a href="homepage.html">Home</a></li>
@@ -19,95 +19,74 @@
     </ul>
 </nav>
 <body>
-    
-    
-    </nav>
     <div class="container">
         <div class="row">
-            <div class="col-8">
+            <div class="col-12">
                 <main>
-                    <form action="mangion233@gmail.com" method="post" class="contact-form">
-
-             
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h3>Contact Us</h3>
-                                </div>
-
+                    
+                    <form 
+                    action="mailto:info@gamesnet.com" 
+                    method="post"
+                    enctype="text/plain"
+                    class="contact-form">
+                    <div class="container">
+                     
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="first-name-input">First Name</label>
+                                <input type="text" id="first-name-input" name="first-name" placeholder="Mark" required>
                             </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <label for="first-name-imput">First Name</label>
-                                    <input type="text" id="first-name-imput" name="first name" placeholder="Joe" required>
-
-                                </div>
-                                <div class="col-6">
-                                    <label for="last-name-imput">Last Name</label>
-                                    <input type="text" id="last-name-imput" name="last-name-imput" placeholder="Borg" required>
-
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="">Email Address</label>
-                                    <input type="text" id="email-address-input" name="email address" placeholder="email@example.com" required>
-
-                                </div>                                
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="">Topic</label>
-                                    <select name="topic" id="topic-dropdown-list" required>
-                                        <option value=""></option>
-                                        <option value="tech-support"></option>
-                                        <option value="tech-support">Diffrent Suggestion</option>
-                                        <option value="tech-support">Other games we should try</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="">Subject</label>
-                                    <input type="text" id="subject-input" name="subject" placeholder="Please Help">
-                                </div>
-
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <label for="message-textarea">Message</label>
-                                    <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please eneter your message here...." required></textarea>
-                                        
-                                </div>
-
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <button type="submit" class="button">Send</button>
-                                    
-                                </div>
-                                <div class="col-6">
-                                    <button type="reset" class="button clear">Cancle</button>
-                                </div>
-
+                            <div class="col-6">
+                                <label for="last-name-input">Last Name</label>
+                                <input type="text" id="last-name-input" name="last-name" placeholder="Mifsud" required>
                             </div>
                         </div>
-                    </form>
-                </main>
-            </div>
-            <div class="col-4">
-                <aside>
-                    <div class="contact-details">
                         
-                   
-                        <hr>
-
-                   
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="email-address-input">Email Address</label>
+                                <input type="text" id="email-address-input" name="email-address" placeholder="markmifsud@gmail.com" required>
+                            </div>
+                        </div>
+                        
+                        
+                       
+                        
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="subject-input">Subject</label>
+                                <input type="text" id="subject-input" name="subject" placeholder="Please help!" required>
+                            </div>
+                        </div>
+                        
+                       
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="message-textarea">Message</label>
+                                <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here..."></textarea>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="submit" class="button">Send</button>
+                            </div>
+                            <div class="col-6">
+                                <button type="reset" class="button clear">Cancel</button>
+                            </div>
+                        </div>
                     </div>
-                </aside>
-            </div>
+                </form>
+            </main>
         </div>
     </div>
+</div>
+    
+    
+    
     <footer>
         <div class="container">
             &copy;2023 Randon Mangion. All rights reserved.
