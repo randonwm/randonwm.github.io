@@ -25,13 +25,14 @@ h1 {
 
 nav {
     background-color: white;
-    padding: 10px;
+    padding: 25px;
+    margin-top: -20px;
 }
 
 ul {
     list-style-type: none;
-    margin: 10;
-    padding: 30;
+    margin: 40;
+    padding: 20;
 }
 
 li {
@@ -80,7 +81,7 @@ footer {
     display: block;
     width: 100%;
     color: rgb(252, 251, 250);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 
 .contact-form label {
@@ -128,10 +129,9 @@ footer {
 
 .col-12{
    
-    flex: 1;
+    flex: 2;
     background-color: #000000;
-    border-radius: 10px;
+    border-radius: 60px;
     padding: 20px;
-    margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
