@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, ;
+    text-align: center;
+    background-image: url(Silver_Background.webp);
+    background-size: cover;
+    
+    
+    
+   
+   
+}
+
+
+header, nav, main, footer {
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 30;
+}
+
+li {
+    display: inline;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 5%;
+  
+  
+}
+
+a:hover {
+    background-color: rgb(0, 183, 255);
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
+header {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    flex: 5;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+section {
+    flex: 1;
+    background-color: #4c4c4c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #e44d26;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
