@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/grid.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">MatesClub.com</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <main>
+                    
+                    <form 
+                    action="mailto:" 
+                    method="post"
+                    enctype="text/plain"
+                    class="contact-form">
+                    <div class="container">
+                     
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="first-name-input">First Name</label>
+                                <input type="text" id="first-name-input" name="first-name" placeholder="Mark" required>
+                            </div>
+                            <div class="col-6">
+                                <label for="last-name-input">Last Name</label>
+                                <input type="text" id="last-name-input" name="last-name" placeholder="Mangion" required>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="email-address-input">Email Address</label>
+                                <input type="text" id="email-address-input" name="email-address" placeholder="markmangion@gmail.com" required>
+                            </div>
+                        </div>
+                        
+                        
+                       
+                        
+                        
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="subject-input">Subject</label>
+                                <input type="text" id="subject-input" name="subject" placeholder="Please help!" required>
+                            </div>
+                        </div>
+                        
+                       
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="message-textarea">Message</label>
+                                <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here..."></textarea>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="submit" class="button">Send</button>
+                            </div>
+                            <div class="col-6">
+                                <button type="reset" class="button clear">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </div>
+</div>
+    
+    
+    
+    <footer>
+        <div class="container">
+            &copy;2023 Randon Mangion. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

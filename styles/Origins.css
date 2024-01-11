@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #130b02d7;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(assassins\ creed\ origins\ background.png);
+    background-size: cover;
+    margin-bottom: 100px;
+    
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgb(217, 255, 0);
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: -50%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.container .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem -.5rem 0;
+}
+
+.container .row [class="col-"] {
+    margin: 0 .5rem;
+    padding: .5rem;
+}
+
+.container .row .col-4 {
+    width: calc(4 / 12 * 100% - 1rem);
+}
+
+.container .row .col-12 {
+    width: calc(12 / 12 * 100% - 1rem);
+}
+
+section {
+    flex: 1;
+    background-color: #140b02;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(255, 145, 0);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    color: #ff5100;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
